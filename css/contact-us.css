@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Banner */
+section.banner{
+    width: 100%;
+    height: 460px;
+    background-color: #14274A;
+}
+
+.wrapper-banner{
+    position: relative;
+    margin: 0 190px ;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 30px;
+    
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper-banner h1{
+    text-align: center;
+    margin-top: 47px;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;  
+    text-transform: uppercase;  
+}
+
+/* formulario */
+.formularios{
+    width: 100%;
+    padding: 0 150px;
+    margin-top: 261px;
+    
+}
+.info-formulario h1{
+    font-size: 60px;
+    color: #14274A;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.info-formulario p{
+    font-weight: 400;
+    font-size: 30px;
+    color: #14274A;
+}
+.info-formulario{
+    margin-bottom: 161px;
+}.info-formulario p{
+    margin-top: 7px;
+}
+
+.endereço-formulario{
+    display: flex;
+    margin-bottom: 250px;
+    
+}
+.endereço-form{
+    width: 613px;
+    margin-right: 286px;
+}
+.endereço-form span:nth-of-type(1),
+.endereço-form span:nth-of-type(2){
+    font-weight: 400;
+    font-size: 20px;
+    color: #14274A;
+}
+.endereço-form span:nth-of-type(3){
+    font-size: 40px;
+    font-weight: 700;
+    color: #14274A;
+    margin: 28px 0 54px 0;
+}
+.endereço-form span:nth-of-type(3)::after{
+    content: "\2192";
+    margin-left: 30px;
+}
+.endereço-form span:nth-of-type(4),
+.endereço-form span:nth-of-type(5){
+    color: #14274A;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.endereço-form span{
+    display: block;
+}
+
+.formulario{
+    width: 570px;
+}
+.formularios form{
+    display: flex;
+    flex-direction: column;
+}
+.formulario span{
+    font-weight: bold;
+    font-size: 19px;
+    color: #14274A;
+    margin-bottom: 6px;
+}
+
+.formulario form input[type="text"],
+.formulario form input[type="email"]{
+    height: 40px;
+    outline: 0;
+    border: 2px solid #14274a9f;
+    padding-left: 5px;
+}
+.formulario textarea{
+    height: 250px;
+    resize: none;
+    border: 2px solid #14274a9f;
+    padding-left: 5px;
+}
+.formulario button{
+    width: 154px;
+    height: 78px;
+    background-color: #E0B973;
+    border: 0;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    align-self: flex-end;
+    margin-top: 52px;
+    cursor: pointer;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 320px;
+    background-image: url('../img/Union\ 3.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.wrapper-foter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.margin-item-footer{
+    color: white;
+    margin: 0 40px;
+    
+}
+
+.wrapper-foter .endereço h1{
+    font-weight: 700;
+     
+}
+.wrapper-foter .endereço span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.wrapper-foter .paginas{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-foter .paginas p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.wrapper-foter .paginas a,
+.wrapper-foter .social-midia a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 10px 5px;
+
+}
+.wrapper-foter .social-midia{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 400;
+}
+.wrapper-foter .social-midia .face{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/Path 38.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 10px 5px;
+}
+.wrapper-foter .social-midia .tt{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/Path 39.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 10px 5px;
+}
+
+.wrapper-foter .social-midia .insta{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/Path 40.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 10px 5px;
+}
+
+.social-midia-alinhar{
+    display: flex;
+}
+.newsllater h1{
+    font-weight: 400;
+    font-size: 16px;
+}
+.newsllater form{
+    display: flex;
+    margin-top: 40px;
+}
+.newsllater form input[type="email"]{
+    border: 2px solid #E0B973;
+    outline: 0;
+    padding: 0 10px;
+    background-color: transparent;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.newsllater form button{
+    width: 80px;
+    background-color: #E0B973;
+    height: 50px;
+    border: 0;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

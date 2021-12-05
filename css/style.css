@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Banner */
+section.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+section.banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(20, 39, 74, 0.502);
+}
+.wrapper-banner{
+    position: relative;
+    margin: 0 190px ;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 30px;
+    
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.conteudo-chamda{
+    max-width: 698px;
+    margin-top: 176px;
+    
+}
+.conteudo-chamda span {
+    color: white;
+}
+
+.conteudo-chamda span:nth-of-type(2){
+    font-weight: 700;
+    font-size: 171px;
+    
+}
+.conteudo-chamda span:nth-of-type(1){
+    font-weight: 400;
+    font-size: 50px;
+   
+}
+.conteudo-chamda span:nth-of-type(3){
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    
+
+}
+.conteudo-chamda span:nth-of-type(4),
+.conteudo-chamda span:nth-of-type(5){
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 20%;
+
+}
+.wrapper-banner::after{
+    content: ' ';
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/arrow.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin: 100px auto;
+}
+
+/* quartos */
+.quartos {
+    width: 100%;
+    padding: 0 151px;
+}
+.quartos > h1{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    padding: 88px 0;
+}
+.quarto1{
+    display: flex;
+    margin-bottom: 60px;
+}
+.quarto1 img{
+    width: 500px;
+    height: 379px;
+}
+.quarto1 .info-quarto{
+    margin-top: 50px;
+    width: 530px;
+    margin-right: 110px;
+  
+    padding: 0 40px;
+    border-left: 2px solid #14274A;
+}
+
+.quarto1 .info-quarto h1{
+    font-size: 30px;
+    color: #14274A;
+}
+.quarto1 .info-quarto p{
+    font-weight: 400;
+    color: #14274A;
+    font-style: 20px;
+    margin-top: 25px;
+}
+.quarto1 .info-quarto button{
+    margin-top: 30px;
+    width: 236px;
+    height: 63px;
+    cursor: pointer;
+    border: 0;
+    background-color: #E0B973;
+    border-radius: 20px;
+}
+
+/* Testemonials */
+
+.testemonial{
+    width: 798px;
+    height: 277px;
+    margin: 115px auto;
+    text-align: center;
+    
+}
+.testemonial h1{
+    color: #14274A;
+    font-weight: 70;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 26px;
+}
+.testemonial p{
+    font-weight: 400;
+    color: #14274A;
+    font-size: 30px;
+}
+.testemonial p:nth-of-type(2){
+    font-size: 25px;
+    margin-top: 19px;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 320px;
+    background-image: url('../img/Union\ 3.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.wrapper-foter{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.margin-item-footer{
+    color: white;
+    margin: 0 40px;
+    
+}
+
+.wrapper-foter .endereço h1{
+    font-weight: 700;
+     
+}
+.wrapper-foter .endereço span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.wrapper-foter .paginas{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-foter .paginas p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.wrapper-foter .paginas a,
+.wrapper-foter .social-midia a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 19px;
+    margin: 10px 5px;
+
+}
+.wrapper-foter .social-midia{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 400;
+}
+.wrapper-foter .social-midia .face{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/Path 38.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 10px 5px;
+}
+.wrapper-foter .social-midia .tt{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/Path 39.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 10px 5px;
+}
+
+.wrapper-foter .social-midia .insta{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/Path 40.png');
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 10px 5px;
+}
+
+.social-midia-alinhar{
+    display: flex;
+}
+.newsllater h1{
+    font-weight: 400;
+    font-size: 16px;
+}
+.newsllater form{
+    display: flex;
+    margin-top: 40px;
+}
+.newsllater form input[type="email"]{
+    border: 2px solid #E0B973;
+    outline: 0;
+    padding: 0 10px;
+    background-color: transparent;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.newsllater form button{
+    width: 80px;
+    background-color: #E0B973;
+    height: 50px;
+    border: 0;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
